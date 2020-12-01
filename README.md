@@ -3,12 +3,12 @@
 
 ## Overview
 
-LendingHome is one of the nation's largest Hard Money Lenders having funded over 23,000 projects totaling over $5 Billion in funds [source]( https://www.lendinghome.com/m/getRate/exitsLast24). LendingHome was incorporated in 2013 with the goal of transforming the process of receiving funding for a Single Family Bridge or Landlord mortgage into a faster, more transparent, and customer focussed process. James Herbert and Matt Humphrey along with Bill Trenchard (named as a Founding Advisor) successfully launched Lendinghome raising over $200 million in venture funding by October 2013 and originated their first loan just 6 months later in April 2014. The idea for LendingHome stems from James’ and Matt’s personal experiences being both borrowers and investors in the residential property space. During James Herbert’s interview with Lend Academy, he tells a story of how the bank took 104 days to refinance his own property and how difficult it was to get loans funded for his portfolios. These experiences lead him to create a company focussed on creating a better experience for the customer, one 
+LendingHome is one of the nation's largest Hard Money Lenders having funded over 23,000 projects totaling over $5 Billion in funds [source.]( https://www.lendinghome.com/m/getRate/exitsLast24) LendingHome was incorporated in 2013 with the goal of transforming the process of receiving funding for a Single Family Bridge or Landlord mortgage into a faster, more transparent, and customer focussed process. James Herbert and Matt Humphrey along with Bill Trenchard (named as a Founding Advisor) successfully launched Lendinghome raising over $200 million in venture funding by October 2013 and originated their first loan just 6 months later in April 2014. The idea for LendingHome stems from James’ and Matt’s personal experiences being both borrowers and investors in the residential property space. During James Herbert’s interview with Lend Academy, he tells a story of how the bank took 104 days to refinance his own property and how difficult it was to get loans funded for his portfolios. These experiences lead him to create a company focussed on creating a better experience for the customer, one 
 > “that was simple, fast, reliable, online, lower origination cost [source]( https://www.lendacademy.com/wp-content/uploads/2015/08/Podcast-44-James-Herbert.pdf )” and would also provide investors access to high quality loans.”
 
  ---
 	
-LendingHome separates itself from crowdfunding sites by the amount of available capital. Since its inception LendingHome has had several large institutional investors that enable them to confidently fund loans without wondering if individual investors will be interested or if they have enough available capital. In an interview with Lend Academy James cites they have over $9 Billion in combined capacity from their institutional investors. LendingHome also pulls in funds from accredited investors who can diversify their investment across several loans. Some of the early institutional investors include:Charles Moldow (Foundation Capital is a Lead Series A Investor), Micky Malka at Ribbit Ventures, Joe Chen at Renren, Cowboy Ventures,First Round Capital and Colony Capital. [source](https://www.lendacademy.com/wp-content/uploads/2015/08/Podcast-44-James-Herbert.pdf) 
+LendingHome separates itself from crowdfunding sites by the amount of available capital. Since its inception LendingHome has had several large institutional investors that enable them to confidently fund loans without wondering if individual investors will be interested or if they have enough available capital. In an interview with Lend Academy James cites they have over $9 Billion in combined capacity from their institutional investors. LendingHome also pulls in funds from accredited investors who can diversify their investment across several loans. Some of the early institutional investors include:Charles Moldow (Foundation Capital is a Lead Series A Investor), Micky Malka at Ribbit Ventures, Joe Chen at Renren, Cowboy Ventures,First Round Capital and Colony Capital. [source.](https://www.lendacademy.com/wp-content/uploads/2015/08/Podcast-44-James-Herbert.pdf) 
 
 ## LendingHome’s Business Model:
 ![](https://pbs.twimg.com/media/EnTHxr5XcAE7SBT?format=jpg&name=small)
@@ -42,11 +42,11 @@ Below is a bird’s eye view of their Architecture found on StackShare:
 ---
 **Money movements**: An internal application which integrates with our bank partners and exposes a simple API for sending ACH and federal wires.
 ---
-**Salesforce Integration**: We’re a two-sided marketplace, and we keep track of both borrower and investor relationships using Salesforce. [source](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
+**Salesforce Integration**: We’re a two-sided marketplace, and we keep track of both borrower and investor relationships using Salesforce. [source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
 ---
 LendingHome started off using Heroku to deploy and scale their application layer as well as the database & caching layers. They also use Amazon Web Services for hosting and have recently been considering switching off of Heroku and solely using AWS.
 For their front end they started off with simple 
-> “server-side HTML rendered through Ruby on rails using HAML and jQuery. [source](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans) ” 
+> “server-side HTML rendered through Ruby on rails using HAML and jQuery. [source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans) ” 
 
 This helped LendingHome get launched more quickly because of the simplicity. As their frontend became more advanced they transitioned into using multiple single page web apps built with React, Redux, ES6 and Webpack.
 
@@ -59,7 +59,7 @@ LendingHome has also built an extensive document generation and parsing framewor
 
 LendingHome is committed to continuous integration and testing stating that their 
 
-> “ test suite consists of over 30,000 tests that run hundreds of times a day...We use RSpec for core testing, and Capybara/Poltergeist for headless integration tests.[source](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
+> “ test suite consists of over 30,000 tests that run hundreds of times a day...We use RSpec for core testing, and Capybara/Poltergeist for headless integration tests.[source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
 
  When they first launched they were using CircleCI but have recently transitioned to BuildKite because it gives greater granularity into figuring out where tests have failed.
 
@@ -69,7 +69,7 @@ Another major part of LendingHome’s platform is that it was built to be able t
 
 ---
 
-The mortgage industry relies heavily on data to determine the risk of a loan taking into account many factors that include data about the borrower, the property and surrounding properties. LendingHome, styling itself a Data Driven Organization uses Amazon Redshift and their Postgres database to model credit default probabilities and stress test various scenarios to mitigate risk. They also use Looker as the front end to the Amazon Redshift cluster. This addition helps them query databases, create complex dashboards and perform risk / credit modeling. Another major component to LendingHome being Data Driven is the tracking they do on their website, funnel analysis / user retention tracking and managing the efficiency of their many front end integrations. They use Google Analytics, Mixpanel and Segment respectively to capture & analyze the data. In regards to Source Code Management, they have been using GitHub sense day one.
+The mortgage industry relies heavily on data to determine the risk of a loan taking into account many factors that include data about the borrower, the property and surrounding properties. LendingHome, styling itself a Data Driven Organization uses Amazon Redshift and their Postgres database to model credit default probabilities and stress test various scenarios to mitigate risk. They also use Looker as the front end to the Amazon Redshift cluster. This addition helps them query databases, create complex dashboards and perform risk / credit modeling. Another major component to LendingHome being Data Driven is the tracking they do on their website, funnel analysis / user retention tracking and managing the efficiency of their many front end integrations. They use Google Analytics, Mixpanel and Segment respectively to capture & analyze the data. In regards to source. Code Management, they have been using GitHub sense day one.
 
 ---
 
@@ -108,7 +108,7 @@ The Lending domain like many other areas of the financial sector has seen some m
 
 ---
 
-**FinTech Leaders Are Attracting Billions** - FinTech Lenders are a major sector of the FinTech business boom and have played a major role in attracting Billions in investment dollars  from investors by offering borrowers a streamlined user experience that offers easier and faster ways to borrow money. Over the last 8 years investment in the Fintech sector has grown from > “$2 Billion in 2010 to over 50 Billion in 2018. [source]( https://techcrunch.com/2019/12/22/fintechs-next-decade-will-look-radically-different/)”
+**FinTech Leaders Are Attracting Billions** - FinTech Lenders are a major sector of the FinTech business boom and have played a major role in attracting Billions in investment dollars  from investors by offering borrowers a streamlined user experience that offers easier and faster ways to borrow money. Over the last 8 years investment in the Fintech sector has grown from > “$2 Billion in 2010 to over 50 Billion in 2018. [source.]( https://techcrunch.com/2019/12/22/fintechs-next-decade-will-look-radically-different/)”
 
 ---
 
@@ -118,12 +118,12 @@ The Lending domain like many other areas of the financial sector has seen some m
 
  
 **Faster Business Loans** - for most of this decade a business waiting up to 6 months for a loan was something a business just had to factor in. As technology improves and more FinTech Lenders enter the space, businesses can expect much faster loans. 
-> “In the next year, small business owners can expect more financial institutions offering approvals and funding in under 48 hours. [source](https://www.biz2credit.com/blog/2020/02/07/top-8-business-lending-trends-to-watch-in-2020-business-growth-loans/) ”
+> “In the next year, small business owners can expect more financial institutions offering approvals and funding in under 48 hours [source.](https://www.biz2credit.com/blog/2020/02/07/top-8-business-lending-trends-to-watch-in-2020-business-growth-loans/) ”
 
 ---
 
 **BlockChain & Distributed Ledger Technology** -Blockchain technology is a disrupter that is changing the way many industries keep records and manage real time transactions. The Lending domain is no different. According to Biz2credit Blockchain technology is being developed to do the following:
-> “- Leverage digital assets such as cryptocurrencies to attain loans
+- Leverage digital assets such as cryptocurrencies to attain loans
 - Track and manage loan payments
 - Provide real-time transaction data 
 - Give borrowers more control over their loan
@@ -169,7 +169,8 @@ Blend, Avant, Qudian, SoFi, Affirm, Borro, Funding Circle, GoRefi, Kabbage, Lend
 ## The Bottom Line - How LendingHome compares to Leaders of the Lending Domain
 
 LendingHome is without a doubt a force to be reckoned with in the Hard Money Space. From day one they recognized a vulnerability in the Hard Money Sector, 
-> “extreme lender fragmentation, a terrible borrower experience (uncertain terms, hidden fees), and an imbalanced risk-reward profile, [source](https://www.businesswire.com/news/home/20180405005425/en/LendingHome-Wins-HousingWire-Tech100-Award-for-Second-Year) ” 
+> “extreme lender fragmentation, a terrible borrower experience (uncertain terms, hidden fees), and an imbalanced risk-reward profile, [source.](https://www.businesswire.com/news/home/20180405005425/en/LendingHome-Wins-HousingWire-Tech100-Award-for-Second-Year) ” 
+
 and set out to take advantage by building their platform from scratch designed to offer a fast, transparent online experience while also keeping the quality of their loans high enabling them to position themselves as a marketplace lender with institutional investor backing. Since launching, LendingHome has won several awards including two second place spots on the HousingWire Tech100 list. Their founders dream of creating a product designed to exploit the vulnerabilities common to most hard money lenders in the industry has become a reality! LendingHome has overcome development obstacles and has now funded over $5 Billion across 23,000 projects, according to their website, making it clear their business model works. LendingHome’s achievements will definitely force other Hard Money Lenders to re-evaluate their own process if their market share continues to grow as it has been.
 
  ---
@@ -218,7 +219,7 @@ In conclusion, LendingHome is a market disruptor in the financial sector, lendin
 
 
 
-**Additional Sources**: 
+**Additional sources**: 
 
 ---
 
