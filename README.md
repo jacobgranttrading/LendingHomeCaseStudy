@@ -8,27 +8,40 @@ LendingHome is one of the nation's largest Hard Money Lenders having funded over
 
  ---
 	
-LendingHome separates itself from crowdfunding sites by the amount of available capital. Since its inception LendingHome has had several large institutional investors that enable them to confidently fund loans without wondering if individual investors will be interested or if they have enough available capital. In an interview with Lend Academy James cites they have over $9 Billion in combined capacity from their institutional investors. LendingHome also pulls in funds from accredited investors who can diversify their investment across several loans. Some of the early institutional investors include:Charles Moldow (Foundation Capital is a Lead Series A Investor), Micky Malka at Ribbit Ventures, Joe Chen at Renren, Cowboy Ventures,First Round Capital and Colony Capital. [source](https://www.lendacademy.com/wp-content/uploads/2015/08/Podcast-44-James-Herbert.pdf) ---
-
+LendingHome separates itself from crowdfunding sites by the amount of available capital. Since its inception LendingHome has had several large institutional investors that enable them to confidently fund loans without wondering if individual investors will be interested or if they have enough available capital. In an interview with Lend Academy James cites they have over $9 Billion in combined capacity from their institutional investors. LendingHome also pulls in funds from accredited investors who can diversify their investment across several loans. Some of the early institutional investors include:Charles Moldow (Foundation Capital is a Lead Series A Investor), Micky Malka at Ribbit Ventures, Joe Chen at Renren, Cowboy Ventures,First Round Capital and Colony Capital. [source](https://www.lendacademy.com/wp-content/uploads/2015/08/Podcast-44-James-Herbert.pdf) 
 
 ## LendingHome’s Business Model:
 ![](https://pbs.twimg.com/media/EnTHxr5XcAE7SBT?format=jpg&name=small)
 
-Lendinghome is focussed on solving the speed and transparency problems that many borrowers face when applying for mortgages . The loan products they offer are for Single Family (1-4 units) homes and are structured as Bridge or Landlord loans. LendingHome is a data driven customer focussed organization that really has two sets of customers. The first set of customers is the borrowers who benefit from their streamlined application process that simplifies the complex process of getting approved for a loan & lowers origination cost compared to traditional lenders. LendingHome’s other set of customers are their accredited investors who also enjoy a user friendly interface, automated investing options and the ability to diversify their real estate investment portfolio.---  
-LendingHome’s target audience are the borrowers who may not qualify or want a bank loan for a myriad of different reasons. This target audience that LendingHome seeks to attract is the same large audience that has been going to hard money lenders for the past decades. The market size for the hard money sector is approximately $10 Billion. [source](https://www.realtymogul.com/knowledge-center/article/p2p-marketplace-lending-and-institutional-investors#:~:text=Most%20industry%20followers%20estimate%20that,money%E2%80%9D%20market%20size%20of%20approx) In other words these are borrowers who want to Fix & Flip a property or they are looking to create rental income by renting their property out. Some of the reasons customers are coming to LendingHome (or looking for a Hard Money Lender in general)  is that do not qualify for a bank loan because of: credit, number of properties owned( if over 10 properties they are disqualified them from Fannie loans which most banks sell their loans too), time to close (traditional lenders such as banks are not known for moving quickly), or another reason that has made a traditional, more rigours bank loan unattractive.---
-The solution LendingHome offers is a fast, online, customer friendly, transparent loan process. With many of the Hard Money Lenders in the market today, loans go through lengthy processes that are often opaque and may be declined for reasons that are unclear to the borrower. For investors LendingHome is offering an easy to use real estate investment platform where accredited investors can diversify their investments across high quality Single Family properties.---
-LendingHome’s competitive advantage is their commitment to providing a customer experience second to none. They have an online application that lets borrowers know in three minutes if they qualify for any of their loan programs and what interest rate they can expect. Borrowers can customize their loan request and see how different changes affect the rates they will get. If they decide to apply for the loan, the rest of the application takes about 15 minutes and shows borrowers through an interactive dashboard what they are missing, next steps and specific updates about their loan. LendingHome’s key differentiators are their focus on customer experience and available capital. In regards to customer experience, they claim to be the simplest, fastest and most reliable service in comparison to competitors. The other competitive advantage they can claim is being backed by large multi-billion dollar institutional investors giving them the security of knowing they can fund any project they extend terms too.---
+Lendinghome is focussed on solving the speed and transparency problems that many borrowers face when applying for mortgages . The loan products they offer are for Single Family (1-4 units) homes and are structured as Bridge or Landlord loans. LendingHome is a data driven customer focussed organization that really has two sets of customers. The first set of customers is the borrowers who benefit from their streamlined application process that simplifies the complex process of getting approved for a loan & lowers origination cost compared to traditional lenders. LendingHome’s other set of customers are their accredited investors who also enjoy a user friendly interface, automated investing options and the ability to diversify their real estate investment portfolio.
+
+---  
+
+LendingHome’s target audience are the borrowers who may not qualify or want a bank loan for a myriad of different reasons. This target audience that LendingHome seeks to attract is the same large audience that has been going to hard money lenders for the past decades. The market size for the hard money sector is approximately $10 Billion [source.](https://www.realtymogul.com/knowledge-center/article/p2p-marketplace-lending-and-institutional-investors#:~:text=Most%20industry%20followers%20estimate%20that,money%E2%80%9D%20market%20size%20of%20approx) In other words these are borrowers who want to Fix & Flip a property or they are looking to create rental income by renting their property out. Some of the reasons customers are coming to LendingHome (or looking for a Hard Money Lender in general)  is that do not qualify for a bank loan because of: credit, number of properties owned( if over 10 properties they are disqualified them from Fannie loans which most banks sell their loans too), time to close (traditional lenders such as banks are not known for moving quickly), or another reason that has made a traditional, more rigours bank loan unattractive.
+
+---
+
+The solution LendingHome offers is a fast, online, customer friendly, transparent loan process. With many of the Hard Money Lenders in the market today, loans go through lengthy processes that are often opaque and may be declined for reasons that are unclear to the borrower. For investors LendingHome is offering an easy to use real estate investment platform where accredited investors can diversify their investments across high quality Single Family properties.
+
+---
+
+LendingHome’s competitive advantage is their commitment to providing a customer experience second to none. They have an online application that lets borrowers know in three minutes if they qualify for any of their loan programs and what interest rate they can expect. Borrowers can customize their loan request and see how different changes affect the rates they will get. If they decide to apply for the loan, the rest of the application takes about 15 minutes and shows borrowers through an interactive dashboard what they are missing, next steps and specific updates about their loan. LendingHome’s key differentiators are their focus on customer experience and available capital. In regards to customer experience, they claim to be the simplest, fastest and most reliable service in comparison to competitors. The other competitive advantage they can claim is being backed by large multi-billion dollar institutional investors giving them the security of knowing they can fund any project they extend terms too.
+
+---
 
 ### LendingHome’s Tech Stack
 
-	LendingHome has an extensive tech stack that is constantly evolving as they add integrations and improve their platform.
+	*LendingHome has an extensive tech stack that is constantly evolving as they add integrations and improve their platform.*
 
 
 Below is a bird’s eye view of their Architecture found on StackShare: 
 > “The product is split into four major applications:
-**Consumer**: A end-user facing application handling both the loan application process for the borrower as well as various investment management services for the investor. ---
-**Operations (ops)**: An internal application designed for our in-house loan specialists to handle every step of the loan from application to underwriting to servicing to final payoff.---
-**Money movements**: An internal application which integrates with our bank partners and exposes a simple API for sending ACH and federal wires.---
+**Consumer**: A end-user facing application handling both the loan application process for the borrower as well as various investment management services for the investor.
+ ---
+**Operations (ops)**: An internal application designed for our in-house loan specialists to handle every step of the loan from application to underwriting to servicing to final payoff.
+---
+**Money movements**: An internal application which integrates with our bank partners and exposes a simple API for sending ACH and federal wires.
+---
 **Salesforce Integration**: We’re a two-sided marketplace, and we keep track of both borrower and investor relationships using Salesforce. [source](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
 ---
 LendingHome started off using Heroku to deploy and scale their application layer as well as the database & caching layers. They also use Amazon Web Services for hosting and have recently been considering switching off of Heroku and solely using AWS.
@@ -47,9 +60,12 @@ LendingHome has also built an extensive document generation and parsing framewor
 LendingHome is committed to continuous integration and testing stating that their 
 
 > “ test suite consists of over 30,000 tests that run hundreds of times a day...We use RSpec for core testing, and Capybara/Poltergeist for headless integration tests.[source](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
- When they first launched they were using CircleCI but have recently transitioned to BuildKite because it gives greater granularity into figuring out where tests have failed.---
+
+ When they first launched they were using CircleCI but have recently transitioned to BuildKite because it gives greater granularity into figuring out where tests have failed.
+
+---
 Another major part of LendingHome’s platform is that it was built to be able to handle lots of third party vendor integrations. They currently have over 50 vendor integrations that perform tasks such as pulling property data, finding home price trends, checking borrower creditworthiness and investor credentials. One of the vendors they use is BlockScore which checks the OFAC (Office of Foreign Assets Control) to make sure a borrower or investor is not on a prohibited list. This integration adds to the proficiency of LendingHome’s app and reduces workload on internal staff.  Another useful integration comes from Lob which verifies mailing addresses and notifies users when there are errors. LendingHome also uses InvestReady to verify their investors accreditation since at this time all of their investors must be accredited. 
-> “Other noteworthy integrations include RedBell, LPS, ClearCapital, Zillow, Walkscore, Trulia, RentRange, and CredCo.[source](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
+> “Other noteworthy integrations include RedBell, LPS, ClearCapital, Zillow, Walkscore, Trulia, RentRange, and CredCo[source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
 
 ---
 
@@ -63,55 +79,59 @@ Performance and Monitoring is a top priority for LendingHome because they realiz
 
 Lendinghome is currently practicing an Agile methodology using Jira for issue tracking. In the beginning they just used a google doc knowing they were not ready to use all of the features JIRA offers. Slack and Google applications are the main methods for communication.
 
-Salesforce & Marketo are used by their sales team to track clients, lead scoring and marketing .When LendingHome looks to build user-facing features they like to use Sketch and Invision to create mockups first. This allows for a streamlined design process where they are able to spend less time re-building features. ---
+Salesforce & Marketo are used by their sales team to track clients, lead scoring and marketing .When LendingHome looks to build user-facing features they like to use Sketch and Invision to create mockups first. This allows for a streamlined design process where they are able to spend less time re-building features. 
+
+---
 
 LendingHome is committed to continually growing and constantly improving their platform so their tech stack is ever evolving. Visit this site to see the current tech stack:  [StackShare - LendingHome Tech Stack](https://stackshare.io/lendinghome/lendinghome) --- 
 
 ## The Landscape Surrounding LendingHome:
 
-LendingHome clearly identifies itself as a FinTech company looking to disrupt the Lending domain of the financial sector. LendingHome is focussed on providing mortgages of under $1 Million in Bridge and Landlord products for Single Family homes making them a clear competitor in the Mortgage Industry - A Trillion Dollar Industry! ---
-
-The Lending domain like many other areas of the financial sector has seen some major trend shifts over the past decade and is set to continue to see trend changes throughout the next decade. Below are a few of the major trends that I believe will have a major impact on the Lending Domain. ---
-
--**Full Spectrum Credit Scoring Adoption** -Currently a borrower’s credit or FICO score is a major factor for whether they will be eligible for a loan and how expensive your loan will be. As the use of AI increases some lenders are starting to use Full Spectrum Credit Scoring which seeks to create a more complete picture of a borrower's ability to repay loans. This type of credit scoring takes into account many additional factors such as: Payment of monthly bills, use of payday or subprime lending options, online borrowing, Inventory turnover, overall profitability, and several other factors. Using data analytics and AI will enable lenders to get a more complete picture of the risk associated with the potential borrower, enable more borrowers to be eligible for a loan, give borrowers more fair loans, and reduce risk while increasing profit for lenders.
+LendingHome clearly identifies itself as a FinTech company looking to disrupt the Lending domain of the financial sector. LendingHome is focussed on providing mortgages of under $1 Million in Bridge and Landlord products for Single Family homes making them a clear competitor in the Mortgage Industry - A Trillion Dollar Industry! 
 
 ---
 
--**Growing use of Artificial Intelligence** - In the same lane as the trend mentioned above many financial institutions including major lenders are investing heavily and utilizing machine learning to fully automate lending which reduces the time it takes to underwrite a loan & creates better risk assessment measures (such as the Full Spectrum Credit Scoring mentioned above). This creates an environment where loans can be granted much faster. The goal of incorporating AI into making loan decisions is to allow consumers to see fairer, better quality and faster loans.
+The Lending domain like many other areas of the financial sector has seen some major trend shifts over the past decade and is set to continue to see trend changes throughout the next decade. Below are a few of the major trends that I believe will have a major impact on the Lending Domain.
+
+ ---
+
+**Full Spectrum Credit Scoring Adoption** -Currently a borrower’s credit or FICO score is a major factor for whether they will be eligible for a loan and how expensive your loan will be. As the use of AI increases some lenders are starting to use Full Spectrum Credit Scoring which seeks to create a more complete picture of a borrower's ability to repay loans. This type of credit scoring takes into account many additional factors such as: Payment of monthly bills, use of payday or subprime lending options, online borrowing, Inventory turnover, overall profitability, and several other factors. Using data analytics and AI will enable lenders to get a more complete picture of the risk associated with the potential borrower, enable more borrowers to be eligible for a loan, give borrowers more fair loans, and reduce risk while increasing profit for lenders.
+
+---
+
+**Growing use of Artificial Intelligence** - In the same lane as the trend mentioned above many financial institutions including major lenders are investing heavily and utilizing machine learning to fully automate lending which reduces the time it takes to underwrite a loan & creates better risk assessment measures (such as the Full Spectrum Credit Scoring mentioned above). This creates an environment where loans can be granted much faster. The goal of incorporating AI into making loan decisions is to allow consumers to see fairer, better quality and faster loans.
 
 --- 
 
 
--**Open Banking** is a trend that has been changing the financial industry across the globe making data more accessible and curbing the competitive advantage of data rich companies, typically traditional financial institutions who are a major source for lending. ---
--**FinTech Leaders Are Attracting Billions** - FinTech Lenders are a major sector of the FinTech business boom and have played a major role in attracting Billions in investment dollars  from investors by offering borrowers a streamlined user experience that offers easier and faster ways to borrow money. Over the last 8 years investment in the Fintech sector has grown from > “$2 Billion in 2010 to over 50 Billion in 2018. [source]( https://techcrunch.com/2019/12/22/fintechs-next-decade-will-look-radically-different/)”
+**Open Banking** is a trend that has been changing the financial industry across the globe making data more accessible and curbing the competitive advantage of data rich companies, typically traditional financial institutions who are a major source for lending. 
 
 ---
 
--**Improved Customer Centric Lending practices**  - Financial Services and Lending have traditionally not been known as sectors known for outstanding customer service or for putting a huge focus on user experience. As face to face customer relationships have declined coupled with the rise of online banking, traditional institutions have begun competing to make their platform the most customer friendly. As more customer experience focussed lenders enter the space it is forcing the industry to become more customer-centric or risk losing market share.--- 
--**Faster Business Loans** - for most of this decade a business waiting up to 6 months for a loan was something a business just had to factor in. As technology improves and more FinTech Lenders enter the space, businesses can expect much faster loans. > “In the next year, small business owners can expect more financial institutions offering approvals and funding in under 48 hours. [source](https://www.biz2credit.com/blog/2020/02/07/top-8-business-lending-trends-to-watch-in-2020-business-growth-loans/) ”
+**FinTech Leaders Are Attracting Billions** - FinTech Lenders are a major sector of the FinTech business boom and have played a major role in attracting Billions in investment dollars  from investors by offering borrowers a streamlined user experience that offers easier and faster ways to borrow money. Over the last 8 years investment in the Fintech sector has grown from > “$2 Billion in 2010 to over 50 Billion in 2018. [source]( https://techcrunch.com/2019/12/22/fintechs-next-decade-will-look-radically-different/)”
 
 ---
 
--**BlockChain & Distributed Ledger Technology** -Blockchain technology is a disrupter that is changing the way many industries keep records and manage real time transactions. The Lending domain is no different. According to Biz2credit Blockchain technology is being developed to do the following:
+**Improved Customer Centric Lending practices**  - Financial Services and Lending have traditionally not been known as sectors known for outstanding customer service or for putting a huge focus on user experience. As face to face customer relationships have declined coupled with the rise of online banking, traditional institutions have begun competing to make their platform the most customer friendly. As more customer experience focussed lenders enter the space it is forcing the industry to become more customer-centric or risk losing market share.
 
 ---
-> “Leverage digital assets such as cryptocurrencies to attain loans 
+
+ 
+**Faster Business Loans** - for most of this decade a business waiting up to 6 months for a loan was something a business just had to factor in. As technology improves and more FinTech Lenders enter the space, businesses can expect much faster loans. 
+> “In the next year, small business owners can expect more financial institutions offering approvals and funding in under 48 hours. [source](https://www.biz2credit.com/blog/2020/02/07/top-8-business-lending-trends-to-watch-in-2020-business-growth-loans/) ”
+
 ---
-Track and manage loan payments
+
+**BlockChain & Distributed Ledger Technology** -Blockchain technology is a disrupter that is changing the way many industries keep records and manage real time transactions. The Lending domain is no different. According to Biz2credit Blockchain technology is being developed to do the following:
+> “- Leverage digital assets such as cryptocurrencies to attain loans
+- Track and manage loan payments
+- Provide real-time transaction data 
+- Give borrowers more control over their loan
+- Connect borrowers with private lenders
+- Speed up the loan approval process
+- Greater access to business growth loans [source](https://www.biz2credit.com/blog/2020/02/07/top-8-business-lending-trends-to-watch-in-2020-business-growth-loans/)”
 ---
-Provide real-time transaction data
----
-Give borrowers more control over their loan
----
-Connect borrowers with private lenders
----
-Speed up the loan approval process
----
-Greater access to business growth loans
----
- [source](https://www.biz2credit.com/blog/2020/02/07/top-8-business-lending-trends-to-watch-in-2020-business-growth-loans/)”
----
--**Growth in online alternative lenders** - traditional large financial institutions and other major lenders have had strict requirements making it next to impossible for some borrowers to qualify for their loans. With the explosion of FinTech Lenders many of them have occupied the space of providing loans to less attractive borrowers and small business owners that would be denied by traditional lending institutions. While the interest rate offered by these lenders is typically higher they offer loans to customers typically denied by banks, quick decisions and quick funding, low revenue requirements and merchant cash advances to name a few. 
+- **Growth in online alternative lenders** - traditional large financial institutions and other major lenders have had strict requirements making it next to impossible for some borrowers to qualify for their loans. With the explosion of FinTech Lenders many of them have occupied the space of providing loans to less attractive borrowers and small business owners that would be denied by traditional lending institutions. While the interest rate offered by these lenders is typically higher they offer loans to customers typically denied by banks, quick decisions and quick funding, low revenue requirements and merchant cash advances to name a few. 
 
 ---
 
@@ -124,9 +144,11 @@ The Lending Domain of the Financial Sector is vast space with many competitors. 
 ---
 
 Here are two lists of competitors to LendingHome that could be used to compare business performance depending if you are looking at companies in the mortgage space or emerging Fintech companies in the lending domain.  
+
 ---
 
 **Major Mortgage Companies**: 
+
 ---
 
 AmeriSave Mortgage, Brex, Better Mortgage, Home Loan, William Ravies Real Estate, Mortgage & Insurance, iCAP Realty Advisors, Eagle Home Mortgage, Eastern Union, Dacotah Bank, Quicken Loans.
@@ -160,7 +182,9 @@ The main metric lenders use is the total dollar amount of loans they have origin
 ---
  
 The statistics expressed in the table below are statistics for 2019 found on ZoomInfo.com:
-![LendingHome V. Leading Lenders](https://scontent.fatl1-2.fna.fbcdn.net/v/t1.0-9/128096889_199381811792054_6329962835951969985_n.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=c3sUFKUnfcYAX_mUu_y&_nc_ht=scontent.fatl1-2.fna&oh=9b75a93bd8ae948e6205547fac635feb&oe=5FEB5AF2) ---
+![LendingHome V. Leading Lenders](https://scontent.fatl1-2.fna.fbcdn.net/v/t1.0-9/128096889_199381811792054_6329962835951969985_n.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=c3sUFKUnfcYAX_mUu_y&_nc_ht=scontent.fatl1-2.fna&oh=9b75a93bd8ae948e6205547fac635feb&oe=5FEB5AF2)
+
+ ---
 
 The Lending domain, more specifically the Mortgage space is a trillion dollar industry dominated by many traditional institutions some of them reporting multi billions in revenue in 2019. Companies like LendingHome have come into the space as disruptors looking to create a customer focussed loan process that is faster, more transparent & still produces high quality investment options for investors. LendingHome along with several other FinTech lenders have successfully broken into the space and are forcing larger traditional institutions to recognize them as competitors.
 
@@ -201,6 +225,7 @@ In conclusion, LendingHome is a market disruptor in the financial sector, lendin
 [1](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans) 
 
 [2](https://www.biz2credit.com/blog/2020/02/07/top-8-business-lending-trends-to-watch-in-2020-business-growth-loans/) 
+
 [3](https://empirica-software.com/fintech-companies-lending/) 
 
 [4](https://builtin.com/fintech/fintech-lending-applications) 
@@ -210,6 +235,8 @@ In conclusion, LendingHome is a market disruptor in the financial sector, lendin
 [6](https://www.businesswire.com/news/home/20191216005173/en/LendingHome-Surpasses-5-Billion-in-Loans-in-Five-Years) 
 
 [7](https://www.forbes.com/sites/jeffkauflin/2019/02/04/the-10-biggest-fintech-companies-in-america-2019/#5e6a3bc932b9) 
+
 [8](https://www.accenture.com/us-en/insight-future-fintech-banking) 
+
 [9](https://www.forbes.com/fintech/#39ae67bc13f1) 
 
