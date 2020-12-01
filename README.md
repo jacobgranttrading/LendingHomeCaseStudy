@@ -138,7 +138,7 @@ The Lending domain like many other areas of the financial sector has seen some m
 - Speed up the loan approval process
 - Greater access to business growth loans [source](https://www.biz2credit.com/blog/2020/02/07/top-8-business-lending-trends-to-watch-in-2020-business-growth-loans/)”
 ---
-- **Growth in online alternative lenders** - traditional large financial institutions and other major lenders have had strict requirements making it next to impossible for some borrowers to qualify for their loans. With the explosion of FinTech Lenders many of them have occupied the space of providing loans to less attractive borrowers and small business owners that would be denied by traditional lending institutions. While the interest rate offered by these lenders is typically higher they offer loans to customers typically denied by banks, quick decisions and quick funding, low revenue requirements and merchant cash advances to name a few. 
+-   **Growth in online alternative lenders** - traditional large financial institutions and other major lenders have had strict requirements making it next to impossible for some borrowers to qualify for their loans. With the explosion of FinTech Lenders many of them have occupied the space of providing loans to less attractive borrowers and small business owners that would be denied by traditional lending institutions. While the interest rate offered by these lenders is typically higher they offer loans to customers typically denied by banks, quick decisions and quick funding, low revenue requirements and merchant cash advances to name a few. 
 
 ---
 
