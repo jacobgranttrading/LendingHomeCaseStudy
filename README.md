@@ -8,7 +8,7 @@ LendingHome is one of the nation's largest Hard Money Lenders having funded over
 
  ---
 	
-LendingHome separates itself from crowdfunding sites by the amount of available capital. Since its inception LendingHome has had several large institutional investors that enable them to confidently fund loans without wondering if individual investors will be interested or if they have enough available capital. In an interview with Lend Academy James cites they have over $9 Billion in combined capacity from their institutional investors. LendingHome also pulls in funds from accredited investors who can diversify their investment across several loans. Some of the early institutional investors include:Charles Moldow (Foundation Capital is a Lead Series A Investor), Micky Malka at Ribbit Ventures, Joe Chen at Renren, Cowboy Ventures,First Round Capital and Colony Capital. [source.](https://www.lendacademy.com/wp-content/uploads/2015/08/Podcast-44-James-Herbert.pdf) 
+LendingHome separates itself from crowdfunding sites by the amount of available capital. Since its inception LendingHome has had several large institutional investors that enable them to confidently fund loans without wondering if individual investors will be interested or if they have enough available capital. In an interview with Lend Academy James cites they have over $9 Billion in combined capacity from their institutional investors. LendingHome also pulls in funds from accredited investors who can diversify their investment across several loans. Some of the early institutional investors include:Charles Moldow (Foundation Capital is a Lead Series A Investor), Micky Malka at Ribbit Ventures, Joe Chen at Renren, Cowboy Ventures,First Round Capital and Colony Capital [source.](https://www.lendacademy.com/wp-content/uploads/2015/08/Podcast-44-James-Herbert.pdf) 
 
 ## LendingHome’s Business Model:
 ![](https://pbs.twimg.com/media/EnTHxr5XcAE7SBT?format=jpg&name=small)
@@ -31,28 +31,35 @@ LendingHome’s competitive advantage is their commitment to providing a custome
 
 ### LendingHome’s Tech Stack
 
-	*LendingHome has an extensive tech stack that is constantly evolving as they add integrations and improve their platform.*
-
+LendingHome has an extensive tech stack that is constantly evolving as they add integrations and improve their platform.
 
 Below is a bird’s eye view of their Architecture found on StackShare: 
+
 > “The product is split into four major applications:
-**Consumer**: A end-user facing application handling both the loan application process for the borrower as well as various investment management services for the investor.
- ---
-**Operations (ops)**: An internal application designed for our in-house loan specialists to handle every step of the loan from application to underwriting to servicing to final payoff.
----
-**Money movements**: An internal application which integrates with our bank partners and exposes a simple API for sending ACH and federal wires.
----
-**Salesforce Integration**: We’re a two-sided marketplace, and we keep track of both borrower and investor relationships using Salesforce. [source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
+- Consumer: A end-user facing application handling both the loan application process for the borrower as well as various investment management services for the investor.
+- Operations (ops): An internal application designed for our in-house loan specialists to handle every step of the loan from application to underwriting to servicing to final payoff.
+- Money movements: An internal application which integrates with our bank partners and exposes a simple API for sending ACH and federal wires.
+- Salesforce Integration: We’re a two-sided marketplace, and we keep track of both borrower and investor relationships using Salesforce. [source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
+
 ---
 LendingHome started off using Heroku to deploy and scale their application layer as well as the database & caching layers. They also use Amazon Web Services for hosting and have recently been considering switching off of Heroku and solely using AWS.
+
+---
+
 For their front end they started off with simple 
 > “server-side HTML rendered through Ruby on rails using HAML and jQuery. [source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans) ” 
 
 This helped LendingHome get launched more quickly because of the simplicity. As their frontend became more advanced they transitioned into using multiple single page web apps built with React, Redux, ES6 and Webpack.
 
 ---
-LendingHome’s development team has worked to simplify the backend by removing server-side rendering and creating simple endpoints instead. To service loans, (the process of making sure borrowers payments are made on time and that investors are paid back including interest) Lendinghome has built an end-to-end servicing engine that can read payment activity from subservices, collect payments from borrowers and pay investors the money they are owed. ---
-LendingHome uses PostgreSQL as its primary database. To communicate with their borrowers they use Twilio for SMS and voice and Maulgun for email. On the backend they also have an Automated Investing system that enables investors to automatically buy parts of loans as soon as they come available. Retail investors can also choose their own specific fractional notes but their choices are limited to three different types of investment programs - their automated system - AutoInvest handles this process.
+LendingHome’s development team has worked to simplify the backend by removing server-side rendering and creating simple endpoints instead. To service loans, (the process of making sure borrowers payments are made on time and that investors are paid back including interest) Lendinghome has built an end-to-end servicing engine that can read payment activity from subservices, collect payments from borrowers and pay investors the money they are owed. 
+
+---
+
+LendingHome uses PostgreSQL as its primary database. To communicate with their borrowers they use Twilio for SMS and voice and Maulgun for email. On the backend they also have an Automated Investing system that enables investors to automatically buy parts of loans as soon as they come available. Retail investors can also choose their own specific fractional notes but their choices are limited to three different types of investment programs - their automated system - AutoInvest handles this process. 
+
+---
+
 LendingHome has also built an extensive document generation and parsing framework to handle the mortgage contracts that typically have over 1,000 pages. The main components are DocGen, CloudConvert, RightSignature and wkhtmltopdf. Their process to handle documentation, particularly DocViewer, automatically parses data and speeds up loan processing time reducing the workload of LendingHome’s staff. 
 
 ---
