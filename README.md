@@ -95,7 +95,8 @@ Salesforce & Marketo are used by their sales team to track clients, lead scoring
 LendingHome is committed to continually growing and constantly improving their platform so their tech stack is ever evolving. Visit this site to see the current tech stack:  [StackShare - LendingHome Tech Stack](https://stackshare.io/lendinghome/lendinghome) --- 
 
 ## The Landscape Surrounding LendingHome:
-[](https://i.insider.com/5d2757d1a17d6c2d970283e3?width=1300&format=jpeg&auto=webp) 
+
+[](https://i.insider.com/5d2757d1a17d6c2d970283e3?width=1300&format=jpeg&auto=webp)  
 
 
 LendingHome clearly identifies itself as a FinTech company looking to disrupt the Lending domain of the financial sector. LendingHome is focussed on providing mortgages of under $1 Million in Bridge and Landlord products for Single Family homes making them a clear competitor in the Mortgage Industry - A Multi-Trillion Dollar Industry! 
@@ -151,7 +152,8 @@ The Lending domain like many other areas of the financial sector has seen some m
 
 
 ### Major Companies In The Lending Domain
-[](https://connectedinvestors.com/blog/wp-content/uploads/2015/08/The-truth-about-Hard-Money-Lenders-and-REI.gif) 
+
+[](https://connectedinvestors.com/blog/wp-content/uploads/2015/08/The-truth-about-Hard-Money-Lenders-and-REI.gif)  
 
 The Lending Domain of the Financial Sector is vast space with many competitors. Below I will focus on two more traditional leaders in the Mortgage space, QuickenLoans and Amerisave Mortgage Company. Below I will also look at the leading FinTech companies in the Lending domain: LendingClub, SoFi, and Prosper.
 
