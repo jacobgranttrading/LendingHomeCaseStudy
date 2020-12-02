@@ -4,11 +4,13 @@
 ## Overview
 
 LendingHome is one of the nation's largest Hard Money Lenders having funded over 23,000 projects totaling over $5 Billion in funds [source.]( https://www.lendinghome.com/m/getRate/exitsLast24) LendingHome was incorporated in 2013 with the goal of transforming the process of receiving funding for a Single Family Bridge or Landlord mortgage into a faster, more transparent, and customer focussed process. James Herbert and Matt Humphrey along with Bill Trenchard (named as a Founding Advisor) successfully launched Lendinghome raising over $200 million in venture funding by October 2013 and originated their first loan just 6 months later in April 2014. The idea for LendingHome stems from James’ and Matt’s personal experiences being both borrowers and investors in the residential property space. During James Herbert’s interview with Lend Academy, he tells a story of how the bank took 104 days to refinance his own property and how difficult it was to get loans funded for his portfolios. These experiences lead him to create a company focussed on creating a better experience for the customer, one 
-> “that was simple, fast, reliable, online, lower origination cost [source]( https://www.lendacademy.com/wp-content/uploads/2015/08/Podcast-44-James-Herbert.pdf )” and would also provide investors access to high quality loans.”
+> “that was simple, fast, reliable, online, lower origination cost [source]( https://www.lendacademy.com/wp-content/uploads/2015/08/Podcast-44-James-Herbert.pdf )” 
+
+and would also provide investors access to high quality loans.
 
  ---
 	
-LendingHome separates itself from crowdfunding sites by the amount of available capital. Since its inception LendingHome has had several large institutional investors that enable them to confidently fund loans without wondering if individual investors will be interested or if they have enough available capital. In an interview with Lend Academy James cites they have over $9 Billion in combined capacity from their institutional investors. LendingHome also pulls in funds from accredited investors who can diversify their investment across several loans. Some of the early institutional investors include:Charles Moldow (Foundation Capital is a Lead Series A Investor), Micky Malka at Ribbit Ventures, Joe Chen at Renren, Cowboy Ventures,First Round Capital and Colony Capital [source.](https://www.lendacademy.com/wp-content/uploads/2015/08/Podcast-44-James-Herbert.pdf) 
+LendingHome separates itself from crowdfunding sites by the amount of available capital. Since its inception LendingHome has had several large institutional investors that enable them to confidently fund loans without wondering if individual investors will be interested or if they have enough available capital. In an interview with Lend Academy James cites they have over $9 Billion in combined capacity from their institutional investors. LendingHome also pulls in funds from accredited investors who can diversify their investment across several loans. Some of the early institutional investors include: Charles Moldow (Foundation Capital is a Lead Series A Investor), Micky Malka at Ribbit Ventures, Joe Chen at Renren, Cowboy Ventures,First Round Capital and Colony Capital [source.](https://www.lendacademy.com/wp-content/uploads/2015/08/Podcast-44-James-Herbert.pdf) 
 
 ## LendingHome’s Business Model:
 ![](https://pbs.twimg.com/media/EnTHxr5XcAE7SBT?format=jpg&name=small)
@@ -36,10 +38,10 @@ LendingHome has an extensive tech stack that is constantly evolving as they add 
 Below is a bird’s eye view of their Architecture found on StackShare: 
 
 > “The product is split into four major applications:
-- Consumer: A end-user facing application handling both the loan application process for the borrower as well as various investment management services for the investor.
-- Operations (ops): An internal application designed for our in-house loan specialists to handle every step of the loan from application to underwriting to servicing to final payoff.
-- Money movements: An internal application which integrates with our bank partners and exposes a simple API for sending ACH and federal wires.
-- Salesforce Integration: We’re a two-sided marketplace, and we keep track of both borrower and investor relationships using Salesforce. [source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
+>- Consumer: A end-user facing application handling both the loan application process for the borrower as well as various investment management services for the investor.
+>- Operations (ops): An internal application designed for our in-house loan specialists to handle every step of the loan from application to underwriting to servicing to final payoff.
+>- Money movements: An internal application which integrates with our bank partners and exposes a simple API for sending ACH and federal wires.
+>- Salesforce Integration: We’re a two-sided marketplace, and we keep track of both borrower and investor relationships using Salesforce. [source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
 
 ---
 LendingHome started off using Heroku to deploy and scale their application layer as well as the database & caching layers. They also use Amazon Web Services for hosting and have recently been considering switching off of Heroku and solely using AWS.
@@ -56,7 +58,7 @@ LendingHome’s development team has worked to simplify the backend by removing 
 
 ---
 
-LendingHome uses PostgreSQL as its primary database. To communicate with their borrowers they use Twilio for SMS and voice and Maulgun for email. On the backend they also have an Automated Investing system that enables investors to automatically buy parts of loans as soon as they come available. Retail investors can also choose their own specific fractional notes but their choices are limited to three different types of investment programs - their automated system - AutoInvest handles this process. 
+LendingHome uses PostgreSQL as its primary database. To communicate with their borrowers they use Twilio for SMS and voice and Mailgun for email. On the backend they also have an Automated Investing system that enables investors to automatically buy parts of loans as soon as they come available. Retail investors can also choose their own specific fractional notes but their choices are limited to three different types of investment programs. Their automated system, AutoInvest, handles this process. 
 
 ---
 
@@ -66,35 +68,37 @@ LendingHome has also built an extensive document generation and parsing framewor
 
 LendingHome is committed to continuous integration and testing stating that their 
 
-> “ test suite consists of over 30,000 tests that run hundreds of times a day...We use RSpec for core testing, and Capybara/Poltergeist for headless integration tests.[source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
+> “ test suite consists of over 30,000 tests that run hundreds of times a day...We use RSpec for core testing, and Capybara/Poltergeist for headless integration tests [source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
 
  When they first launched they were using CircleCI but have recently transitioned to BuildKite because it gives greater granularity into figuring out where tests have failed.
 
 ---
 Another major part of LendingHome’s platform is that it was built to be able to handle lots of third party vendor integrations. They currently have over 50 vendor integrations that perform tasks such as pulling property data, finding home price trends, checking borrower creditworthiness and investor credentials. One of the vendors they use is BlockScore which checks the OFAC (Office of Foreign Assets Control) to make sure a borrower or investor is not on a prohibited list. This integration adds to the proficiency of LendingHome’s app and reduces workload on internal staff.  Another useful integration comes from Lob which verifies mailing addresses and notifies users when there are errors. LendingHome also uses InvestReady to verify their investors accreditation since at this time all of their investors must be accredited. 
-> “Other noteworthy integrations include RedBell, LPS, ClearCapital, Zillow, Walkscore, Trulia, RentRange, and CredCo[source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
+> “Other noteworthy integrations include RedBell, LPS, ClearCapital, Zillow, Walkscore, Trulia, RentRange, and CredCo [source.](https://stackshare.io/lendinghome/how-lendinghome-scaled-their-marketplace-to-$750m-in-real-estate-loans )”
 
 ---
 
-The mortgage industry relies heavily on data to determine the risk of a loan taking into account many factors that include data about the borrower, the property and surrounding properties. LendingHome, styling itself a Data Driven Organization uses Amazon Redshift and their Postgres database to model credit default probabilities and stress test various scenarios to mitigate risk. They also use Looker as the front end to the Amazon Redshift cluster. This addition helps them query databases, create complex dashboards and perform risk / credit modeling. Another major component to LendingHome being Data Driven is the tracking they do on their website, funnel analysis / user retention tracking and managing the efficiency of their many front end integrations. They use Google Analytics, Mixpanel and Segment respectively to capture & analyze the data. In regards to source. Code Management, they have been using GitHub sense day one.
+The mortgage industry relies heavily on data to determine the risk of a loan, taking into account many factors that include data about the borrower, the property and surrounding properties. LendingHome, styling itself a Data Driven Organization uses Amazon Redshift and their Postgres database to model credit default probabilities and stress test various scenarios to mitigate risk. They also use Looker as the front end to the Amazon Redshift cluster. This addition helps them query databases, create complex dashboards and perform risk / credit modeling. Another major component to LendingHome being Data Driven is the tracking they do on their website, funnel analysis / user retention tracking and managing the efficiency of their many front end integrations. They use Google Analytics, Mixpanel and Segment respectively to capture & analyze the data. In regards to Source Code Management, they have been using GitHub since day one.
 
 ---
 
-Performance and Monitoring is a top priority for LendingHome because they realize that latency or errors experienced by users can equate to thousands of dollars lost in potential origination costs. To stay on top of what is happening real time LendingHome uses several tools. They use Sentry for error reporting. FullSory is used for monitoring exactly what users are doing on any part of the application and can help reproduce any issues. Pingdom is their primary monitoring and uptime reporting tool which automatically sendsSMS and Slack alerts. They also use New Relic which helps the team identify what is causing page timeouts and latency. 
+Performance and Monitoring is a top priority for LendingHome because they realize that latency or errors experienced by users can equate to thousands of dollars lost in potential origination costs. To stay on top of what is happening real time LendingHome uses several tools. They use Sentry for error reporting. FullSory is used for monitoring exactly what users are doing on any part of the application and can help reproduce any issues. Pingdom is their primary monitoring and uptime reporting tool which automatically sends SMS and Slack alerts. They also use New Relic which helps the team identify what is causing page timeouts and latency. 
 
 ---
 
 Lendinghome is currently practicing an Agile methodology using Jira for issue tracking. In the beginning they just used a google doc knowing they were not ready to use all of the features JIRA offers. Slack and Google applications are the main methods for communication.
 
-Salesforce & Marketo are used by their sales team to track clients, lead scoring and marketing .When LendingHome looks to build user-facing features they like to use Sketch and Invision to create mockups first. This allows for a streamlined design process where they are able to spend less time re-building features. 
+Salesforce & Marketo are used by their sales team to track clients, lead scoring and marketing. When LendingHome looks to build user-facing features they like to use Sketch and Invision to create mockups first. This allows for a streamlined design process where they are able to spend less time re-building features. 
 
 ---
 
 LendingHome is committed to continually growing and constantly improving their platform so their tech stack is ever evolving. Visit this site to see the current tech stack:  [StackShare - LendingHome Tech Stack](https://stackshare.io/lendinghome/lendinghome) --- 
 
 ## The Landscape Surrounding LendingHome:
+[](https://i.insider.com/5d2757d1a17d6c2d970283e3?width=1300&format=jpeg&auto=webp) 
 
-LendingHome clearly identifies itself as a FinTech company looking to disrupt the Lending domain of the financial sector. LendingHome is focussed on providing mortgages of under $1 Million in Bridge and Landlord products for Single Family homes making them a clear competitor in the Mortgage Industry - A Trillion Dollar Industry! 
+
+LendingHome clearly identifies itself as a FinTech company looking to disrupt the Lending domain of the financial sector. LendingHome is focussed on providing mortgages of under $1 Million in Bridge and Landlord products for Single Family homes making them a clear competitor in the Mortgage Industry - A Multi-Trillion Dollar Industry! 
 
 ---
 
@@ -102,7 +106,7 @@ The Lending domain like many other areas of the financial sector has seen some m
 
  ---
 
-**Full Spectrum Credit Scoring Adoption** -Currently a borrower’s credit or FICO score is a major factor for whether they will be eligible for a loan and how expensive your loan will be. As the use of AI increases some lenders are starting to use Full Spectrum Credit Scoring which seeks to create a more complete picture of a borrower's ability to repay loans. This type of credit scoring takes into account many additional factors such as: Payment of monthly bills, use of payday or subprime lending options, online borrowing, Inventory turnover, overall profitability, and several other factors. Using data analytics and AI will enable lenders to get a more complete picture of the risk associated with the potential borrower, enable more borrowers to be eligible for a loan, give borrowers more fair loans, and reduce risk while increasing profit for lenders.
+**Full Spectrum Credit Scoring Adoption** -Currently a borrower’s credit or FICO score is a major factor for whether they will be eligible for a loan and how expensive their loan will be. As the use of AI increases some lenders are starting to use Full Spectrum Credit Scoring which seeks to create a more complete picture of a borrower's ability to repay loans. This type of credit scoring takes into account many additional factors such as: payment of monthly bills, use of payday or subprime lending options, online borrowing, inventory turnover, overall profitability, and several other factors. Using data analytics and AI will enable lenders to get a more complete picture of the risk associated with the potential borrower, enable more borrowers to be eligible for a loan, give borrowers more fair loans, and reduce risk while increasing profit for lenders.
 
 ---
 
@@ -115,7 +119,9 @@ The Lending domain like many other areas of the financial sector has seen some m
 
 ---
 
-**FinTech Leaders Are Attracting Billions** - FinTech Lenders are a major sector of the FinTech business boom and have played a major role in attracting Billions in investment dollars  from investors by offering borrowers a streamlined user experience that offers easier and faster ways to borrow money. Over the last 8 years investment in the Fintech sector has grown from > “$2 Billion in 2010 to over 50 Billion in 2018. [source.]( https://techcrunch.com/2019/12/22/fintechs-next-decade-will-look-radically-different/)”
+**FinTech Leaders Are Attracting Billions** - FinTech Lenders are a major sector of the FinTech business boom and have played a major role in attracting Billions in investment dollars  from investors by offering borrowers a streamlined user experience that offers easier and faster ways to borrow money. Over the last 8 years investment in the Fintech sector has grown from 
+
+> “$2 Billion in 2010 to over 50 Billion in 2018 [source.]( https://techcrunch.com/2019/12/22/fintechs-next-decade-will-look-radically-different/)”
 
 ---
 
@@ -124,7 +130,7 @@ The Lending domain like many other areas of the financial sector has seen some m
 ---
 
  
-**Faster Business Loans** - for most of this decade a business waiting up to 6 months for a loan was something a business just had to factor in. As technology improves and more FinTech Lenders enter the space, businesses can expect much faster loans. 
+**Faster Business Loans** - For most of this decade a business waiting up to 6 months for a loan was something a business just had to factor in. As technology improves and more FinTech Lenders enter the space, businesses can expect much faster loans. 
 > “In the next year, small business owners can expect more financial institutions offering approvals and funding in under 48 hours [source.](https://www.biz2credit.com/blog/2020/02/07/top-8-business-lending-trends-to-watch-in-2020-business-growth-loans/) ”
 
 ---
@@ -138,13 +144,14 @@ The Lending domain like many other areas of the financial sector has seen some m
 - Speed up the loan approval process
 - Greater access to business growth loans [source](https://www.biz2credit.com/blog/2020/02/07/top-8-business-lending-trends-to-watch-in-2020-business-growth-loans/)”
 ---
-**Growth in online alternative lenders** - traditional large financial institutions and other major lenders have had strict requirements making it next to impossible for some borrowers to qualify for their loans. With the explosion of FinTech Lenders many of them have occupied the space of providing loans to less attractive borrowers and small business owners that would be denied by traditional lending institutions. While the interest rate offered by these lenders is typically higher they offer loans to customers typically denied by banks, quick decisions and quick funding, low revenue requirements and merchant cash advances to name a few. 
+ **Growth in Online Alternative Lenders** - Traditional large financial institutions and other major lenders have had strict requirements making it next to impossible for some borrowers to qualify for their loans. With the explosion of FinTech Lenders many of them have occupied the space of providing loans to less attractive borrowers and small business owners that would be denied by traditional lending institutions. While the interest rate offered by these lenders is typically higher, they offer loans to customers typically denied by banks, quick decisions, quick funding, low revenue requirements and merchant cash advances to name a few. 
 
 ---
 
 
 
 ### Major Companies In The Lending Domain
+[](https://connectedinvestors.com/blog/wp-content/uploads/2015/08/The-truth-about-Hard-Money-Lenders-and-REI.gif) 
 
 The Lending Domain of the Financial Sector is vast space with many competitors. Below I will focus on two more traditional leaders in the Mortgage space, QuickenLoans and Amerisave Mortgage Company. Below I will also look at the leading FinTech companies in the Lending domain: LendingClub, SoFi, and Prosper.
 
@@ -167,7 +174,7 @@ AmeriSave Mortgage, Brex, Better Mortgage, Home Loan, William Ravies Real Estate
 
 ---
 
-Blend, Avant, Qudian, SoFi, Affirm, Borro, Funding Circle, GoRefi, Kabbage, LendingClub, OnDeck, Orchard, Prosper($5 Billion loans originated - claiming third after LendingCLub($16 Billion) and SoFi($4 Billion), ZestFinance, Salt Lending, Tala, OppLoans, Bond Street, Braviant Holdings, Fundbox.
+Blend, Avant, Qudian, SoFi, Affirm, Borro, Funding Circle, GoRefi, Kabbage, LendingClub, OnDeck, Orchard, Prosper($5 Billion loans originated - claiming third after LendingCLub($16 Billion) and SoFi($6 Billion), ZestFinance, Salt Lending, Tala, OppLoans, Bond Street, Braviant Holdings, Fundbox.
 
 ---
 
@@ -194,7 +201,7 @@ The statistics expressed in the table below are statistics for 2019 found on Zoo
 
  ---
 
-The Lending domain, more specifically the Mortgage space is a trillion dollar industry dominated by many traditional institutions some of them reporting multi billions in revenue in 2019. Companies like LendingHome have come into the space as disruptors looking to create a customer focussed loan process that is faster, more transparent & still produces high quality investment options for investors. LendingHome along with several other FinTech lenders have successfully broken into the space and are forcing larger traditional institutions to recognize them as competitors.
+The Lending domain, more specifically the Mortgage space is a multi trillion dollar industry dominated by many traditional institutions some of them reporting multi billions in revenue in 2019. Companies like LendingHome have come into the space as disruptors looking to create a customer focussed loan process that is faster, more transparent & still produces high quality investment options for investors. LendingHome along with several other FinTech lenders have successfully broken into the space and are forcing larger traditional institutions to recognize them as competitors.
 
  ---
 
@@ -205,11 +212,11 @@ LendingHome reported $65 Million in revenue with 300 employees in 2019 according
 
 ## Recommendations
 
-My advice to LendingHome would be to expand the loan products you offer  - right now offering only Single Family Bridge and Landlord loans with a max loan amount of $1,000,000 is limiting the amount of money they can make from origination fees (typically 2.5% of the loan). I would begin offering multifamily bridge products for loan amounts up to $10 Million. I would definitely make the requirements for the higher loan amounts more stringent so that there can be no argument that these loans are high quality.
+My advice to LendingHome would be to expand the loan products they offer  - right now offering only Single Family Bridge and Landlord loans with a max loan amount of $1,000,000 is limiting the amount of money they can make from origination fees (typically 2.5% of the loan). I would begin offering multifamily bridge products for loan amounts up to $10 Million. I would definitely make the requirements for the higher loan amounts more stringent so that there can be no argument that these loans are high quality.
 
 ---
 
-This recommendation comes from looking at the leading Fintech companies in the Lending Domain. Both SoFi and LendingClub offer multiple loan products while LendingHome currently offers two - the Single Family Bridge loan and Single Family Landlord loan. While I think it is important for LendingHome to stay within its defined niche -real estate(1-4 units currently)- I think it will also be highly profitable if LendingHome can expand their business model to include other types of real estate. As many in the real estate industry know, multifamily properties often require much higher loan amounts which would exponentially increase the origination fees charged and collected increasing SoFi’s revenue. While I understand that multifamily property deals are more difficult to underwrite and originate than single family property deals. I also must point out that the success they have experienced with their platform should be a sign that it can be done and will really only be a next step of what LendingHome has already accomplished with their platform. LendingHome would not need to bring on any additional technologies to accomplish this goal. They can continue to use the same tech stack but add a similar process for multifamily loans and loans over $1,000,000. For these loans I would suggest factoring in the borrowers experience with properties of similar size and raise the minimum credit worthiness standard.
+This recommendation comes from looking at the leading Fintech companies in the Lending Domain. Both SoFi and LendingClub offer multiple loan products while LendingHome currently offers two - the Single Family Bridge loan and Single Family Landlord loan. While I think it is important for LendingHome to stay within its defined niche -real estate(1-4 units currently)- I think it will be highly profitable if LendingHome expands their business model to include other types of real estate. As many in the real estate industry know, multifamily properties often require much higher loan amounts which would exponentially increase the origination fees charged and collected, increasing LendingHome’s revenue. While I understand that multifamily property deals are more difficult to underwrite and originate than single family property deals. I also must point out that the success they have experienced with their platform should be a sign that it can be done and will really only be a next step of what LendingHome has already accomplished with their platform. LendingHome would not need to bring on any additional technologies to accomplish this goal. They can continue to use the same tech stack but add a similar process for multifamily loans and loans over $1,000,000. For these loans I would suggest factoring in the borrowers experience with properties of similar size and raise the minimum credit worthiness standard.
 
  ---
 
@@ -247,4 +254,6 @@ In conclusion, LendingHome is a market disruptor in the financial sector, lendin
 [8](https://www.accenture.com/us-en/insight-future-fintech-banking) 
 
 [9](https://www.forbes.com/fintech/#39ae67bc13f1) 
+
+[10](https://www.businessinsider.com/online-mortgage-lending-report) 
 
